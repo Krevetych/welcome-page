@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" class='scroll-smooth m-0 p-0 box-border text-white'>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    .animate-gradient {
+      background-size: 300%;
+      -webkit-animation: animatedgradient 6s ease infinite alternate;
+      -moz-animation: animatedgradient 6s ease infinite alternate;
+      animation: animatedgradient 6s ease infinite alternate;
+    }
+
+    @keyframes animatedgradient {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+  <title>Universal Hub</title>
+</head>
+
+<body class='bg-[url(/logo2_medium.jpg)]'>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
