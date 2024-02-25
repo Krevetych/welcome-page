@@ -10,7 +10,7 @@ const Home = () => {
 			</h1>
 			<div className='flex gap-x-5 justify-center'>
 				{data.map(item => (
-					<ShortCut item={item} />
+					<ShortCut item={item} key={item.id}/>
 				))}
 			</div>
 		</Wrapper>
