@@ -4,6 +4,7 @@ export const data = [
 		link: 'https://github.com/leksbezdar',
 		username: 'Leksbezdar',
 		img: './github.png',
+		isDisabled: false,
 	},
 
 	{
@@ -11,6 +12,7 @@ export const data = [
 		link: 'https://github.com/krevetych',
 		username: 'Krevetych',
 		img: './github.png',
+		isDisabled: false,
 	},
 
 	{
@@ -18,5 +20,6 @@ export const data = [
 		link: 'https://store.universal-hub.site',
 		username: 'Food store',
 		img: './code.png',
+		isDisabled: true,
 	},
 ]
