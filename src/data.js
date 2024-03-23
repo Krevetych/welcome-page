@@ -17,7 +17,7 @@ export const data = [
 	
 	{
 		id: 3,
-		link: 'https://wsr.universal-hub.site',
+		link: 'https://wsr.universal-hub.site/docs',
 		username: 'WSR API',
 		img: './code.png',
 		isDisabled: false,
